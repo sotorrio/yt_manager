@@ -28,6 +28,22 @@ class MainWindow(QWidget):
         self.show()
 
 
+class ErrorWindow(QWidget):
+    def __init__(self, error):
+        super().__init__()
+        self.msg_error = error
+
+        self.init_ui()
+
+    def init_ui:
+
+
+
+try:
+    yt = pytube.YouTube('https://www.youtube.com/watch?v=PatataAsadaKabete').streams.first().download()
+except pytube.exceptions.VideoUnavailable:
+    print('hola')
+#print(yt.streams.all())
 app = QApplication(sys.argv)
 main_window = MainWindow()
 sys.exit(app.exec_())
