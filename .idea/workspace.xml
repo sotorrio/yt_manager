@@ -15,33 +15,37 @@
     <session id="2104797831">
       <usages-collector id="statistics.lifecycle.project">
         <counts>
-          <entry key="project.closed" value="3" />
+          <entry key="project.closed" value="4" />
           <entry key="project.open.time.0" value="1" />
           <entry key="project.open.time.19" value="1" />
           <entry key="project.open.time.27" value="1" />
+          <entry key="project.open.time.29" value="1" />
           <entry key="project.open.time.35" value="1" />
-          <entry key="project.opened" value="4" />
+          <entry key="project.open.time.40" value="1" />
+          <entry key="project.opened" value="6" />
         </counts>
       </usages-collector>
       <usages-collector id="statistics.file.extensions.open">
         <counts>
-          <entry key="py" value="2" />
+          <entry key="py" value="7" />
         </counts>
       </usages-collector>
       <usages-collector id="statistics.file.types.open">
         <counts>
-          <entry key="Python" value="1" />
+          <entry key="Python" value="6" />
           <entry key="Scratch" value="1" />
         </counts>
       </usages-collector>
       <usages-collector id="statistics.file.extensions.edit">
         <counts>
-          <entry key="py" value="776" />
+          <entry key="py" value="1674" />
+          <entry key="txt" value="11" />
         </counts>
       </usages-collector>
       <usages-collector id="statistics.file.types.edit">
         <counts>
-          <entry key="Python" value="749" />
+          <entry key="PLAIN_TEXT" value="11" />
+          <entry key="Python" value="1647" />
           <entry key="Scratch" value="27" />
         </counts>
       </usages-collector>
@@ -53,12 +57,49 @@
       <file pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/yt_manager.py">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="648">
-              <caret line="38" selection-start-line="38" selection-end-line="38" />
+            <state relative-caret-position="295">
+              <caret line="47" lean-forward="true" selection-start-line="47" selection-end-line="47" />
               <folding>
                 <element signature="e#0#22#0" expanded="true" />
-                <marker date="1539549700780" expanded="true" signature="836:971" ph="..." />
+                <marker date="1539955259265" expanded="true" signature="1464:1859" ph="..." />
+                <marker date="1539955259265" expanded="true" signature="1650:1859" ph="..." />
               </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file:///usr/lib/python3.7/codecs.py">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="6061">
+              <caret line="320" selection-start-line="320" selection-end-line="320" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file:///usr/lib/python3.7/site-packages/pytube/streams.py">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="4123">
+              <caret line="227" selection-start-line="227" selection-end-line="227" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file:///usr/lib/python3.7/http/client.py">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="7467">
+              <caret line="400" selection-start-line="400" selection-end-line="400" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file:///usr/lib/python3.7/ssl.py">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="20577">
+              <caret line="1097" selection-start-line="1097" selection-end-line="1097" />
             </state>
           </provider>
         </entry>
@@ -96,6 +137,7 @@
       <foldersAlwaysOnTop value="true" />
     </navigator>
     <panes>
+      <pane id="Scope" />
       <pane id="ProjectPane">
         <subPane>
           <expand>
@@ -116,7 +158,6 @@
           <select />
         </subPane>
       </pane>
-      <pane id="Scope" />
     </panes>
   </component>
   <component name="PropertiesComponent">
@@ -200,6 +241,14 @@
       <option name="presentableId" value="Default" />
       <updated>1539431599113</updated>
     </task>
+    <task id="LOCAL-00001" summary="PyTube test">
+      <created>1539553222878</created>
+      <option name="number" value="00001" />
+      <option name="presentableId" value="LOCAL-00001" />
+      <option name="project" value="LOCAL" />
+      <updated>1539553222878</updated>
+    </task>
+    <option name="localTasksCounter" value="2" />
     <servers />
   </component>
   <component name="ToolWindowManager">
@@ -211,8 +260,8 @@
       <window_info id="Favorites" order="2" side_tool="true" />
       <window_info anchor="bottom" id="Message" order="0" />
       <window_info anchor="bottom" id="Find" order="1" />
-      <window_info anchor="bottom" id="Run" order="2" weight="0.32992327" />
-      <window_info anchor="bottom" id="Debug" order="3" weight="0.4" />
+      <window_info active="true" anchor="bottom" id="Run" order="2" visible="true" weight="0.32992327" />
+      <window_info anchor="bottom" id="Debug" order="3" weight="0.39897698" />
       <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
       <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
       <window_info anchor="bottom" id="TODO" order="6" />
@@ -228,15 +277,55 @@
   <component name="VcsContentAnnotationSettings">
     <option name="myLimit" value="2678400000" />
   </component>
+  <component name="VcsManagerConfiguration">
+    <MESSAGE value="PyTube test" />
+    <option name="LAST_COMMIT_MESSAGE" value="PyTube test" />
+  </component>
   <component name="editorHistoryManager">
+    <entry file="file:///usr/lib/python3.7/site-packages/pytube/helpers.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="198">
+          <caret line="58" column="9" selection-start-line="58" selection-start-column="9" selection-end-line="58" selection-end-column="9" />
+        </state>
+      </provider>
+    </entry>
     <entry file="file://$PROJECT_DIR$/yt_manager.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="648">
-          <caret line="38" selection-start-line="38" selection-end-line="38" />
+        <state relative-caret-position="295">
+          <caret line="47" lean-forward="true" selection-start-line="47" selection-end-line="47" />
           <folding>
             <element signature="e#0#22#0" expanded="true" />
-            <marker date="1539549700780" expanded="true" signature="836:971" ph="..." />
+            <marker date="1539955259265" expanded="true" signature="1464:1859" ph="..." />
+            <marker date="1539955259265" expanded="true" signature="1650:1859" ph="..." />
           </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file:///usr/lib/python3.7/codecs.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="6061">
+          <caret line="320" selection-start-line="320" selection-end-line="320" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file:///usr/lib/python3.7/site-packages/pytube/streams.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="4123">
+          <caret line="227" selection-start-line="227" selection-end-line="227" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file:///usr/lib/python3.7/http/client.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="7467">
+          <caret line="400" selection-start-line="400" selection-end-line="400" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file:///usr/lib/python3.7/ssl.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="20577">
+          <caret line="1097" selection-start-line="1097" selection-end-line="1097" />
         </state>
       </provider>
     </entry>

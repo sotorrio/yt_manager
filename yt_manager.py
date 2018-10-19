@@ -1,10 +1,13 @@
 import sys, os, pytube
+from PyQt5 import QtCore
 from PyQt5.QtWidgets import QLineEdit, QTextEdit, QPushButton, QVBoxLayout, QHBoxLayout, QWidget
 from PyQt5.QtWidgets import QLabel, QApplication, QFileDialog, qApp, QAction, QMainWindow
 
 class MainWindow(QWidget):
     def __init__(self):
         super().__init__()
+
+        self.setWindowFlags(QtCore.Qt.WindowStaysOnTopHint)
 
         self.init_ui()
 
@@ -23,9 +26,24 @@ class MainWindow(QWidget):
         layout.addLayout(url_layout)
         layout.addWidget(self.btn_dwn)
 
+        self.url_le.selectAll()
+        self.url_le.setFocus()
+
+        self.btn_dwn.clicked.connect(lambda:self.get_video(self.url_le.text()))
+
         self.setLayout(layout)
 
         self.show()
+
+    def get_video(self, url):
+        try:
+            video = pytube.YouTube(url, on_progress_callback=self.progress).streams.first().download()
+        except pytube.exceptions.VideoUnavailable:
+            print('Not available')
+
+    def progress(self, stream, chunk, file_handle, bytes_remaining):
+        size = stream.filesize
+        print(str(100 - (100 * bytes_remaining / size)) + '%')
 
 
 class ErrorWindow(QWidget):
@@ -35,17 +53,24 @@ class ErrorWindow(QWidget):
 
         self.init_ui()
 
-    def init_ui:
+    def init_ui(self):
+        pass
 
+class YouTubeManager(QMainWindow):
+    def __init__(self):
+        super().__init__()
 
+        self.main_window = MainWindow()
+        self.setCentralWidget(self.main_window)
 
-try:
-    yt = pytube.YouTube('https://www.youtube.com/watch?v=PatataAsadaKabete').streams.first().download()
-except pytube.exceptions.VideoUnavailable:
-    print('hola')
+        self.init_ui()
+
+    def init_ui(self):
+        self.show()
+
 #print(yt.streams.all())
 app = QApplication(sys.argv)
-main_window = MainWindow()
+yt_manager = YouTubeManager()
 sys.exit(app.exec_())
 
 
