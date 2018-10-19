@@ -64,6 +64,7 @@ class ErrorWindow(QWidget):
     def init_ui(self):
         pass
 
+
 class YouTubeManager(QMainWindow):
     def __init__(self):
         super().__init__()

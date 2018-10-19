@@ -37,14 +37,14 @@
       </usages-collector>
       <usages-collector id="statistics.file.extensions.edit">
         <counts>
-          <entry key="py" value="2099" />
+          <entry key="py" value="2100" />
           <entry key="txt" value="11" />
         </counts>
       </usages-collector>
       <usages-collector id="statistics.file.types.edit">
         <counts>
           <entry key="PLAIN_TEXT" value="11" />
-          <entry key="Python" value="2072" />
+          <entry key="Python" value="2073" />
           <entry key="Scratch" value="27" />
         </counts>
       </usages-collector>
@@ -56,12 +56,12 @@
       <file pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/yt_manager.py">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="362">
-              <caret line="81" column="21" selection-start-line="81" selection-start-column="21" selection-end-line="81" selection-end-column="21" />
+            <state relative-caret-position="191">
+              <caret line="72" column="25" lean-forward="true" selection-start-line="72" selection-start-column="25" selection-end-line="72" selection-end-column="25" />
               <folding>
                 <element signature="e#0#22#0" expanded="true" />
-                <marker date="1539958991750" expanded="true" signature="1801:2196" ph="..." />
-                <marker date="1539958991750" expanded="true" signature="1987:2196" ph="..." />
+                <marker date="1539959133406" expanded="true" signature="1801:2197" ph="..." />
+                <marker date="1539959133406" expanded="true" signature="1988:2197" ph="..." />
               </folding>
             </state>
           </provider>
@@ -325,12 +325,12 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/yt_manager.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="362">
-          <caret line="81" column="21" selection-start-line="81" selection-start-column="21" selection-end-line="81" selection-end-column="21" />
+        <state relative-caret-position="191">
+          <caret line="72" column="25" lean-forward="true" selection-start-line="72" selection-start-column="25" selection-end-line="72" selection-end-column="25" />
           <folding>
             <element signature="e#0#22#0" expanded="true" />
-            <marker date="1539958991750" expanded="true" signature="1801:2196" ph="..." />
-            <marker date="1539958991750" expanded="true" signature="1987:2196" ph="..." />
+            <marker date="1539959133406" expanded="true" signature="1801:2197" ph="..." />
+            <marker date="1539959133406" expanded="true" signature="1988:2197" ph="..." />
           </folding>
         </state>
       </provider>
