@@ -1,7 +1,7 @@
 import sys, os, pytube
 from PyQt5 import QtCore
 from PyQt5.QtWidgets import QLineEdit, QTextEdit, QPushButton, QVBoxLayout, QHBoxLayout, QWidget
-from PyQt5.QtWidgets import QLabel, QApplication, QFileDialog, qApp, QAction, QMainWindow
+from PyQt5.QtWidgets import QLabel, QApplication, QFileDialog, qApp, QAction, QMainWindow, QProgressBar
 
 class MainWindow(QWidget):
     def __init__(self):
@@ -13,8 +13,11 @@ class MainWindow(QWidget):
 
     def init_ui(self):
         self.url_lbl = QLabel('Video URL')
+        self.vid_name_lbl = QLabel()
+        self.status_lbl = QLabel('Status: ')
         self.url_le = QLineEdit()
         self.btn_dwn = QPushButton('Download')
+        self.pro_pbar = QProgressBar()
 
         url_layout = QHBoxLayout()
         url_layout.addStretch()
@@ -25,6 +28,9 @@ class MainWindow(QWidget):
         layout = QVBoxLayout()
         layout.addLayout(url_layout)
         layout.addWidget(self.btn_dwn)
+        layout.addWidget(self.vid_name_lbl)
+        layout.addWidget(self.status_lbl)
+        layout.addWidget(self.pro_pbar)
 
         self.url_le.selectAll()
         self.url_le.setFocus()
@@ -37,13 +43,15 @@ class MainWindow(QWidget):
 
     def get_video(self, url):
         try:
-            video = pytube.YouTube(url, on_progress_callback=self.progress).streams.first().download()
+            video = pytube.YouTube(url, on_progress_callback=self.progress)
+            self.vid_name_lbl.setText(video.title)
+            video.streams.first().download()
         except pytube.exceptions.VideoUnavailable:
             print('Not available')
 
     def progress(self, stream, chunk, file_handle, bytes_remaining):
         size = stream.filesize
-        print(str(100 - (100 * bytes_remaining / size)) + '%')
+        self.pro_pbar.setValue(100 - (100 * bytes_remaining / size))
 
 
 class ErrorWindow(QWidget):
@@ -68,7 +76,7 @@ class YouTubeManager(QMainWindow):
     def init_ui(self):
         self.show()
 
-#print(yt.streams.all())
+
 app = QApplication(sys.argv)
 yt_manager = YouTubeManager()
 sys.exit(app.exec_())

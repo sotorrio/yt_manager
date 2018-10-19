@@ -2,7 +2,6 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="fcfc8e45-ec22-41ca-90ee-453032d805a4" name="Default Changelist" comment="">
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/yt_manager.py" beforeDir="false" afterPath="$PROJECT_DIR$/yt_manager.py" afterDir="false" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
@@ -27,25 +26,25 @@
       </usages-collector>
       <usages-collector id="statistics.file.extensions.open">
         <counts>
-          <entry key="py" value="7" />
+          <entry key="py" value="9" />
         </counts>
       </usages-collector>
       <usages-collector id="statistics.file.types.open">
         <counts>
-          <entry key="Python" value="6" />
+          <entry key="Python" value="8" />
           <entry key="Scratch" value="1" />
         </counts>
       </usages-collector>
       <usages-collector id="statistics.file.extensions.edit">
         <counts>
-          <entry key="py" value="1674" />
+          <entry key="py" value="2055" />
           <entry key="txt" value="11" />
         </counts>
       </usages-collector>
       <usages-collector id="statistics.file.types.edit">
         <counts>
           <entry key="PLAIN_TEXT" value="11" />
-          <entry key="Python" value="1647" />
+          <entry key="Python" value="2028" />
           <entry key="Scratch" value="27" />
         </counts>
       </usages-collector>
@@ -57,12 +56,12 @@
       <file pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/yt_manager.py">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="295">
-              <caret line="47" lean-forward="true" selection-start-line="47" selection-end-line="47" />
+            <state relative-caret-position="286">
+              <caret line="82" lean-forward="true" selection-start-line="82" selection-end-line="82" />
               <folding>
                 <element signature="e#0#22#0" expanded="true" />
-                <marker date="1539955259265" expanded="true" signature="1464:1859" ph="..." />
-                <marker date="1539955259265" expanded="true" signature="1650:1859" ph="..." />
+                <marker date="1539958088088" expanded="true" signature="1800:2195" ph="..." />
+                <marker date="1539958088088" expanded="true" signature="1986:2195" ph="..." />
               </folding>
             </state>
           </provider>
@@ -71,8 +70,8 @@
       <file pinned="false" current-in-tab="false">
         <entry file="file:///usr/lib/python3.7/codecs.py">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="6061">
-              <caret line="320" selection-start-line="320" selection-end-line="320" />
+            <state relative-caret-position="197">
+              <caret line="323" selection-start-line="323" selection-end-line="323" />
             </state>
           </provider>
         </entry>
@@ -282,32 +281,6 @@
     <option name="LAST_COMMIT_MESSAGE" value="PyTube test" />
   </component>
   <component name="editorHistoryManager">
-    <entry file="file:///usr/lib/python3.7/site-packages/pytube/helpers.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="198">
-          <caret line="58" column="9" selection-start-line="58" selection-start-column="9" selection-end-line="58" selection-end-column="9" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/yt_manager.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="295">
-          <caret line="47" lean-forward="true" selection-start-line="47" selection-end-line="47" />
-          <folding>
-            <element signature="e#0#22#0" expanded="true" />
-            <marker date="1539955259265" expanded="true" signature="1464:1859" ph="..." />
-            <marker date="1539955259265" expanded="true" signature="1650:1859" ph="..." />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file:///usr/lib/python3.7/codecs.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="6061">
-          <caret line="320" selection-start-line="320" selection-end-line="320" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file:///usr/lib/python3.7/site-packages/pytube/streams.py">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="4123">
@@ -333,6 +306,32 @@
       <provider selected="true" editor-type-id="text-editor">
         <state>
           <caret column="216" selection-start-column="216" selection-end-column="216" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file:///usr/lib/python3.7/codecs.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="197">
+          <caret line="323" selection-start-line="323" selection-end-line="323" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file:///usr/lib/python3.7/site-packages/pytube/helpers.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="1001">
+          <caret line="64" selection-start-line="64" selection-end-line="64" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/yt_manager.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="286">
+          <caret line="82" lean-forward="true" selection-start-line="82" selection-end-line="82" />
+          <folding>
+            <element signature="e#0#22#0" expanded="true" />
+            <marker date="1539958088088" expanded="true" signature="1800:2195" ph="..." />
+            <marker date="1539958088088" expanded="true" signature="1986:2195" ph="..." />
+          </folding>
         </state>
       </provider>
     </entry>
