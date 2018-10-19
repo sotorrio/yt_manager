@@ -80,7 +80,3 @@ class YouTubeManager(QMainWindow):
 app = QApplication(sys.argv)
 yt_manager = YouTubeManager()
 sys.exit(app.exec_())
-
-
-
-
