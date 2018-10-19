@@ -12,7 +12,7 @@ class MainWindow(QWidget):
         self.init_ui()
 
     def init_ui(self):
-        self.url_lbl = QLabel('Video URL')
+        self.url_lbl = QLabel('Video URL:')
         self.vid_name_lbl = QLabel()
         self.status_lbl = QLabel('Status: ')
         self.url_le = QLineEdit()
@@ -20,14 +20,14 @@ class MainWindow(QWidget):
         self.pro_pbar = QProgressBar()
 
         url_layout = QHBoxLayout()
-        url_layout.addStretch()
         url_layout.addWidget(self.url_lbl)
         url_layout.addWidget(self.url_le)
+        url_layout.addWidget(self.btn_dwn)
         url_layout.addStretch()
 
         layout = QVBoxLayout()
         layout.addLayout(url_layout)
-        layout.addWidget(self.btn_dwn)
+        layout.addStretch()
         layout.addWidget(self.vid_name_lbl)
         layout.addWidget(self.status_lbl)
         layout.addWidget(self.pro_pbar)
